@@ -1,13 +1,17 @@
-#nav-bar {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 300px;
-  height: 100%;
-
-}
-
-#main-doc {
-  postion: absolute;
-  margin-left: 300px;
+@media screen and (min-width: 480px) {
+  #nav-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 100%;
+    background-color: #b4c7cc;
   }
+
+  #main-doc {
+    position: absolute;
+    left: 210px;
+    top: 0px;
+    background-color: greenyellow;
+  }
+}
