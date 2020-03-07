@@ -1,0 +1,13 @@
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+
+}
+
+#main-doc {
+  postion: absolute;
+  margin-left: 300px;
+  }
